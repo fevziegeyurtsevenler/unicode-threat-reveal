@@ -58,6 +58,21 @@ The detection and normalization logic is a small, dependency-free,
 standard-library-only module (`unicode_reveal.py`) vendored directly into this
 Space so it stays self-contained and unit-testable without Gradio installed.
 
+## Use it in your own pipeline: `prompt-canon`
+
+This Space is the visual front-end. The same *canonicalize-before-you-guard*
+normalization ships as a maintained, dependency-free Python library you can drop
+straight into your own guardrail or moderation pipeline:
+
+```bash
+pip install prompt-canon
+```
+
+- PyPI: https://pypi.org/project/prompt-canon/
+- Source: https://github.com/fevziegeyurtsevenler/prompt-canon
+
+Paste-and-see here; `import prompt_canon` in production.
+
 ## Run locally
 
 ```bash
