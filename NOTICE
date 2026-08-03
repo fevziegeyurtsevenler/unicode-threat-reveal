@@ -1,0 +1,34 @@
+unicode-threat-reveal
+Copyright 2026 Fevzi Ege Yurtsevenler
+
+This product includes software developed by Fevzi Ege Yurtsevenler.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-------------------------------------------------------------------------------
+Prior art and references (informational; not bundled code)
+
+The detection and normalization approaches implemented here draw on publicly
+documented security research and standards. No third-party source code is
+vendored from these projects:
+
+  - NVIDIA garak, PR #1997 ("Turkish casefold buff"): the dotless-i casefold
+    trap idea. https://github.com/NVIDIA/garak
+  - Unicode Technical Standard #39, "Unicode Security Mechanisms" (confusables /
+    restriction levels). https://www.unicode.org/reports/tr39/
+  - Unicode Standard Annex #9, "Unicode Bidirectional Algorithm", and the
+    "Trojan Source" research (CVE-2021-42574).
+  - Unicode Technical Standard #55, "Unicode Source Code Handling".
+
+The homoglyph mapping used here is a small curated subset inspired by the
+UTS #39 confusables data, authored independently for this project.
