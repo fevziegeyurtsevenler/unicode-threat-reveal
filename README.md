@@ -118,3 +118,21 @@ do not own or have permission to assess.
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+
+---
+
+## İlgili AltaySec Kaynakları
+
+- 📖 [Sıfır Genişlikli Unicode ile Gizli Talimat: SKILL.md Tedarik Zinciri Saldırısı](https://altaysec.com.tr/arastirmalar/sifir-genislikli-unicode-gizli-talimat) — konunun derinlemesine Türkçe analizi
+- 🌐 [AltaySec Araştırmalar](https://altaysec.com.tr/arastirmalar/) — Türkçe yapay zekâ güvenliği yazıları
+
+## Atıf
+
+```bibtex
+@software{altaysec_unicode_threat_reveal_2026,
+  author = {{AltaySec}},
+  title  = {unicode-threat-reveal},
+  year   = {2026},
+  url    = {https://github.com/fevziegeyurtsevenler/unicode-threat-reveal}
+}
+```
