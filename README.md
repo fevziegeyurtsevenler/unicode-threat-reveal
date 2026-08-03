@@ -3,9 +3,7 @@ title: Unicode Threat Reveal
 emoji: 🔍
 colorFrom: indigo
 colorTo: red
-sdk: gradio
-sdk_version: 4.44.1
-app_file: app.py
+sdk: static
 pinned: false
 license: apache-2.0
 tags:
